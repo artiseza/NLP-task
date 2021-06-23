@@ -10,12 +10,13 @@ Preprocess
 ----------
 - Download pre-trained word embedding: [fasttext](https://fasttext.cc/docs/en/crawl-vectors.html)
 - Run ``_preprocess.py`` to generate two file. (``vocab.json`` and ``embeddings.npy``)
-- Put your all dataset in ``data`` folder.
+- Download high_risk_words.txt、low_risk_words.txt :(https://drive.google.com/drive/folders/10wx-OX34JZVwhSQtIehMw13iE0BAU364?usp=sharing)
+- Put your all dataset、high_risk_words.txt and low_risk_words.txt in ``data`` folder.
 
 Run
 ---
-- Training and testing operations of Risk task are in ``_risk.py``
-- Training and testing operations of QA task are in ``_qa.py``
+- Training operations of QA task are in ``_qa.py``
+- Testing operations of QA task are in ``predict_qa.py``
 
 Model
 -----
